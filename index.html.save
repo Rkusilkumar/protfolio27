@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,12 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Litheesh's info</title>
+  <title>kushil info</title>
 
   <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/images/webicon.png" type="image/x-icon">
 
   <!--
     - custom css link
@@ -26,7 +25,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body style="background-image: url('https://65designs.com/wp-content/uploads/2020/07/crop.jpg')">
+
 
   <!--
     - #MAIN
@@ -40,16 +40,16 @@
 
     <aside class="sidebar" data-sidebar>
 
-      <div class="sidebar-info">
+      <div class="sidebar-info" >
 
         <figure class="avatar-box">
-          <img src="./assets/images/icon1.png" alt="Litheesh M R" width="80">
+          <img class="avatar-box" src="./assets/images/s1.jpg"  alt="Kushil R" width="80">
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Litheesh M R">Litheesh M R</h1>
+          <h1 class="name" title="kushil KA">Kushil kumar R</h1>
 
-          <p class="title">Web developer</p>
+          <p class="title">Frontend developer</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -70,13 +70,13 @@
 
             <div class="icon-box">
               <ion-icon name="mail-outline"></ion-icon>
-litheesh03@gmail.com            </div>
+            </div>
 
             <div class="contact-info">
               <p class="contact-title">Email</p>
-
-              <a href="mailto:richard@example.com" class="contact-link">litheesh03@gmail.com</a>
+              <a href="mailto:kusilkumar2001@gmail.com" class="contact-link">kusilkumar2001@gmail.com</a>
             </div>
+
           </li>
 
           <li class="contact-item">
@@ -88,7 +88,7 @@ litheesh03@gmail.com            </div>
             <div class="contact-info">
               <p class="contact-title">Phone</p>
 
-              <a href="tel:+12133522795" class="contact-link">+91 8056032252</a>
+              <a href="tel:8056032252" class="contact-link">+91 8807880027</a>
             </div>
 
           </li>
@@ -102,7 +102,7 @@ litheesh03@gmail.com            </div>
             <div class="contact-info">
               <p class="contact-title">Birthday</p>
 
-              <time datetime="1982-06-23">January 03, 2001</time>
+              <time datetime="1982-06-23">June 12, 2001</time>
             </div>
 
           </li>
@@ -177,9 +177,7 @@ litheesh03@gmail.com            </div>
             <button class="navbar-link" data-nav-link>Resume</button>
           </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
+        
 
         </ul>
 
@@ -193,7 +191,7 @@ litheesh03@gmail.com            </div>
         - #ABOUT
       -->
 
-      <article class="about  active" data-page="about">
+      <article class="about  active" data-page="about" style="background-image: url('https://65designs.com/wp-content/uploads/2020/07/crop.jpg')">
 
         <header>
           <h2 class="h2 article-title">About me</h2>
@@ -201,10 +199,11 @@ litheesh03@gmail.com            </div>
 
         <section class="about-text">
           <p>
-           To work with a company which appreciates
-innovation so that I can enhance my knowledge
-and skills to give my best for the growth of the
-company.
+            Highly accomplished and user-focused Front-end Developer adept in
+collaborating with UX and design teams to plan the technical writing and
+execution of functional specifications for websites and applications.
+Dedicated to driving innovation with the ability to follow industry and technological tends and
+facilitating early adoption of innovation
           </p>
         </section>
 
@@ -221,12 +220,12 @@ company.
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">C</h5>
-                <data value="80">80%</data>
+                <h5 class="h5"> HTML</h5>
+                <data value="80">85%</data>
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
+                <div class="skill-progress-fill" style="--initial-percent: 85%;"data-percent="85%"></div>
               </div>
 
             </li>
@@ -234,12 +233,24 @@ company.
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">PHP</h5>
-                <data value="50">50%</data>
+                <h5 class="h5">CSS</h5>
+                <data value="80">75%</data>
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
+                <div class="skill-progress-fill" style="--initial-percent: 75%;"data-percent="75%"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">BOOTSTRAP</h5>
+                <data value="80">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="--initial-percent: 75%;"data-percent="75%"></div>
               </div>
 
             </li>
@@ -247,12 +258,12 @@ company.
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">MySQL</h5>
-                <data value="55">55%</data>
+                <h5 class="h5">JAVASCRIPT</h5>
+                <data value="50">70%</data>
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 55%;"></div>
+                <div class="skill-progress-fill" style="--initial-percent: 70%;"data-percent="70%"></div>
               </div>
 
             </li>
@@ -260,36 +271,49 @@ company.
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">HTML</h5>
-                <data value="75">75%</data>
+                <h5 class="h5">REACT</h5>
+                <data value="55">70%</data>
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 75%;"></div>
+                <div class="skill-progress-fill"style="--initial-percent: 70%;"data-percent="70%"></div>
               </div>
-              <li class="skills-item">
+
+            </li>
+<!-- 
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">my sql</h5>
+                <data value="75">50%</data>
+              </div> -->
+<!-- 
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="--initial-percent: 50%;"data-percent="50%"></div>
+              </div> -->
+              <!-- <li class="skills-item">
 
                 <div class="title-wrapper">
                   <h5 class="h5">CSS</h5>
                   <data value="35">35%</data>
                 </div>
-  
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 35%;"></div>
+   -->
+                <!-- <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="--initial-percent: 35%;"data-percent="70%"></div>
                 </div>
   
-              </li>
+              </li> -->
             </li>
 
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">GIT</h5>
+                <h5 class="h5">GITHUB</h5>
                 <data value="55">55%</data>
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 55%;"></div>
+                <div class="skill-progress-fill" style="--initial-percent: 55%;"data-percent="55%"></div>
               </div>
 
             </li>
@@ -298,9 +322,79 @@ company.
 
           </ul>
 
+          <head>
+            <style>
+              .timelinenew {
+                margin-top: 20px;
+              }
+            </style>
+          </head>
+
+        <section class="timelinenew">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">PERSONAL PROJECTS
+            </h3>
+          </div>
+
+          <ol class="timeline-list">
+<!-- 
+            <li class="timeline-item">
+    
+
+              <h4 class="h4 timeline-item-title">Recruitment management system </h4>
+
+              
+
+              <p class="timeline-text">
+                <head>
+                  <style>
+                    a {
+                      color: #3f7551; /* blue color */
+                    }
+                  </style>
+                </head>
+               Role - Fullstack
+               <a href="https://litheesh.selfmade.one/"> click to visit site!</a>
+              </p>
+
+            </li> -->
+            <li class="timeline-item">
+    
+
+              <h4 class="h4 timeline-item-title">Swiggy food delivery app</h4>
+
+              
+
+              <p class="timeline-text">
+               
+              
+              </p>
+
+            </li>
+
+        
+
+            </li>  //
+
+          </ol>
+
+        </section>
+
+        <head>
+          <style>
+            .serv {
+              margin-top: 20px;
+            }
+          </style>
+        </head>
 
 
-        <section class="service">
+        <section class="serv">
 
           <h3 class="h3 service-title">INTERESTS</h3>
 
@@ -333,7 +427,7 @@ company.
                 <h4 class="h4 service-item-title">Hacking</h4>
 
                 <p class="service-item-text">
-                 learning art of programming through  hacking 
+                 learning art of hacking through programming
                 </p>
               </div>
 
@@ -346,7 +440,7 @@ company.
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">development</h4>
+                <h4 class="h4 service-item-title">Automation</h4>
 
                
                 </p>
@@ -362,11 +456,12 @@ company.
 
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">Photography</h4>
-
+<!--
                 <p class="service-item-text">
                   I make high-quality photos of any category at a professional level.
                 </p>
               </div>
+            -->
 
             </li>
 
@@ -468,7 +563,7 @@ company.
               <span>2018 — 2022</span>
 
               <p class="timeline-text">
-                Computer Science Engineering. It is an engineering course that involves several computer science aspects essential for the creation of the computer system.
+                Mechanical Engineering involves the design, analysis, and manufacture of mechanical systems and devices to solve real-world problems.
               </p>
 
             </li>
@@ -481,7 +576,7 @@ company.
               <span>2016 — 2018</span>
 
               <p class="timeline-text">
-                DON BOSCO HIGHER SECONDARY SCHOOL
+                GOVT BOYS  HIGHER SECONDARY SCHOOL
               </p>
 
             </li>
@@ -494,7 +589,7 @@ company.
               <span>2014 — 2016</span>
 
               <p class="timeline-text">
-                ORGN HIGHER SECONDARY SCHOOL
+                GOVT HIGH  SCHOOL
               </p>
 
             </li>
@@ -516,16 +611,29 @@ company.
 
           <ol class="timeline-list">
 
-            <li class="timeline-item">
+            <!-- <li class="timeline-item">
     
 
               <h4 class="h4 timeline-item-title">Recruitment management system </h4>
 
+               -->
+
+              <!-- <p class="timeline-text">
+               Role - Fullstack
+               <a href="https://litheesh.selfmade.one/"> click to visit site!</a>
+              </p> -->
+
+            <!-- </li> -->
+            <li class="timeline-item">
+    
+
+              <h4 class="h4 timeline-item-title">Swiggy Food Delivery App </h4>
+
               
 
               <p class="timeline-text">
-               Role - Fullstack
-               <a href="https://litheesh.selfmade.one/"> click to visit site!</a>
+               
+              
               </p>
 
             </li>
@@ -792,7 +900,7 @@ company.
 
       <!--
         - #CONTACT
-      -->
+      
 
       <article class="contact" data-page="contact">
 
@@ -808,34 +916,9 @@ company.
           </figure>
         </section>
 
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
-
-    </div>
-
+        
   </main>
+  -->
 
 
 
@@ -843,7 +926,7 @@ company.
 
 
   <!--
-    - custom js link
+    - custom js linkss
   -->
   <script src="./assets/js/script.js"></script>
 
